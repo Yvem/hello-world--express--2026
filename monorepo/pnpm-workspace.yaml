@@ -1,0 +1,29 @@
+autoInstallPeers: false
+catalogMode: prefer
+cleanupUnusedCatalogs: true
+dangerouslyAllowAllBuilds: false
+dedupePeers: true
+enablePrePostScripts: false
+engineStrict: true
+hoist: false
+hoistPattern: []
+hoistWorkspacePackages: false
+ignoreScripts: true
+minimumReleaseAge: 10080
+minimumReleaseAgeIgnoreMissingTime: true
+minimumReleaseAgeStrict: true
+packages:
+  - meta/*
+publicHoistPattern:
+  - tslib
+  - "@typescript/native-preview"
+  - "@typescript"
+  - tsx
+  - "*oxlint*"
+  - "*oxfmt*"
+savePrefix: ^
+shamefullyHoist: false
+strictPeerDependencies: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 129600
+verifyDepsBeforeRun: warn

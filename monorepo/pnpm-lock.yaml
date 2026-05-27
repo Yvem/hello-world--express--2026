@@ -1,0 +1,10 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: false
+  dedupePeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
