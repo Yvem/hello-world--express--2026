@@ -15,6 +15,7 @@ minimumReleaseAgeStrict: true
 packages:
   - meta/*
   - hello-world
+  - my-app
 publicHoistPattern:
   - tslib
   - "@typescript/native-preview"
