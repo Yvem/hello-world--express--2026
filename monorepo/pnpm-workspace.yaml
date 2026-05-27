@@ -16,6 +16,7 @@ packages:
   - meta/*
   - hello-world
   - my-app
+  - learning
 publicHoistPattern:
   - tslib
   - "@typescript/native-preview"
@@ -30,4 +31,10 @@ trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 129600
 verifyDepsBeforeRun: warn
 catalog:
-   express: ^5
+  '@types/express': ^5.0.6
+  '@types/node': ^25.9.1
+  body-parser: ^2.2.2
+  express: ^5
+  jose: ^6.2.3
+  morgan: ~1.9.1
+  serve-static: ^2.2.1

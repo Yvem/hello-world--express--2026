@@ -1,0 +1,25 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "catalog:",
+    "express": "catalog:",
+    "jose": "catalog:",
+    "morgan": "catalog:",
+    "serve-static": "catalog:"
+  },
+  "devDependencies": {
+    "@types/express": "catalog:",
+    "@types/node": "catalog:"
+  }
+}
